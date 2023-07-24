@@ -230,6 +230,7 @@
 
 .about--content h1 {
     color: blueviolet;
+    text-transform: uppercase;
     font-size: 15px;
     padding-bottom: 5px;
 }
@@ -284,4 +285,139 @@
 
 .fa-arrow-right {
     padding-left: 5px;
+}
+
+.process--section {
+    padding: 10px;
+}
+
+.process--content {
+    text-align: center;
+}
+
+.process--content h1{
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.process--content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.process--cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.business--plan--card {
+    padding: 20px
+}
+
+.business--plan--card i {
+    font-size: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.business--plan--card i, h3, p {
+    padding: 10px;
+}
+
+.design--strategy--card {
+    padding: 20px;
+}
+
+.design--strategy--card i {
+    font-size: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.design--strategy--card i, h3, p {
+    padding: 10px;
+}
+
+.grow--business--card {
+    padding: 20px;
+}
+
+.grow--business--card i {
+    font-size: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.grow--business--card i, h3, p {
+    padding: 10px;
+}
+
+.testimonals--section {
+    padding: 10px;
+}
+
+.testimonals--content {
+    padding: 10px;
+    text-align: center;
+}
+
+.testimonals--content h1 {
+    color: blueviolet;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.testimonals--cards {
+    display: flex;
+    padding: 20px;
+}
+
+.testimonal--card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.testimonal--card i {
+    color: darkgoldenrod;
+    padding-left: 10px;
+}
+
+.card--profile {
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+.card--profile img {
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.card--profile h2 {
+    font-size: 15px;
+    margin-top: 10px;
+    padding-bottom: 0x;
+    margin-bottom: 0;
+}
+
+.card--profile p {
+    color: darkgray;
 }
