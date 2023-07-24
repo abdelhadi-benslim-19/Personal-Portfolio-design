@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.background--section {
+    background-image: url(./images/cool-background\ \(1\).png);
+    background-size: cover;
+}
+
+.nav--bar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav--logo {
+    padding: 15px;
+    color: white;
+}
+
+.nav--links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav--links a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.nav--btn {
+    padding: 15px;
+}
+
+.cv--btn {
+    border: none;
+    background-color: darkorange;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.home--section {
+    padding: 10px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.home--intro {
+    padding: 10px;
+}
+
+.home--intro--content {
+    padding: 10px;
+}
+
+.home--intro--content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    word-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.home--intro--content p {
+    font-size: 16px;
+}
+
+.home--intro--btns {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.get-started--btn {
+    border: none;
+    background-color: darkorange;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.watch-intro--btn {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.fa-circle-play {
+    font-size: 30px;
+    color: darkorange;
+    padding-right: 6px;
+}
+.home--picture {
+    padding: 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home--picture img {
+    width: 50%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+.services--section {
+    padding: 10px;
+    text-align: center;
+}
+
+.services--content {
+    padding: 10px;
+}
+
+.services--content--text h1 {
+    padding: 5px 0;
+    color: blueviolet;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.services--content--text h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    word-spacing: 5px;
+}
+
+.services--content--text p {
+    font-size: 15px;
+    word-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.cards--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card--1 {
+    background-color: lightcyan;
+}
+
+.card--2{
+    background-color: blueviolet;
+}
+
+.card--3 {
+    background-color: lightcyan;
+}
+
+.card--text {
+    padding: 20px;
+}
+
+.card--text h3, p {
+    padding: 5px;
+}
+
+.fa-laptop-code {
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.fa-bezier-curve, .fa-cubes {
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: blue;
+}
+
+.about--section {
+    background-image: url(./images/cool-background.svg);
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.image--left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image--left img {
+    width: 50%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: darkorange;
+}
+
+.about--content {
+    padding: 10px;
+}
+
+.about--content h1 {
+    color: blueviolet;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.about--content h2 {
+    font-size: 35px;
+    word-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.about--content p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.fa-circle-arrow-right {
+   color: white;
+}
+
+.card--container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card--text-container p{
+    padding-left: 24px;
+}
+
+.card--container--1 {
+    background-color: lightcoral;
+    margin-bottom: 10px;
+}
+
+.card--container--2 {
+    background-color: lightskyblue;
+    margin-bottom: 20px;
+}
+
+.about--cv--btn {
+    border: none;
+    background-color: darkorange;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.fa-arrow-right {
+    padding-left: 5px;
+}
