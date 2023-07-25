@@ -665,6 +665,11 @@ p {
   margin-left: 0;
   width: 30%;
   float: right;
+  cursor: pointer;
+}
+
+.footer--section--right button:hover {
+    opacity: 0.5;
 }
 
 .footer--section--email {
